@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body.grid-container {
+    display: grid;
+    grid-template-rows: minmax(100px 150px 1fr) 1fr minmax(200px 1fr);
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f97554;
+}
+img.logo {
+    max-width: 200px;
+}
+
+.main {
+    /* margin: 50px 10%; */
+}
+.info {
+    font-size: 2rem;
+    color: #f97554;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.site-info {
+    font-style: italic;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.site-info p {
+    margin: 50px 10%;
+}
+
+.product-text {
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product-container {
+    gap: 50px;
+}
+div.product {
+    background-color: #eee;
+    max-width: 400px;
+    max-height: 450px;
+    border: 1px solid #f97554;
+    border-radius: 10px;
+}
+footer {
+    opacity: 70%;
+    border-top: 1px solid #f97554;
+}
+.contact-container {
+    margin: 30px 10%;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.products.grid-container {
+    margin: 50px 10%;
+    display: grid;
+    gap: 40px;
+    grid-template-rows: 40px 1fr;
+    justify-items: center;
+}
+
+.product.grid-container {
+    display: grid;
+    /* grid-template-rows: 400px 50px; */
+    grid-template-columns: 1fr;
+    margin: 0;
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f97554;
+    border-radius: 0 0 10px 10px;
+    font-size: 2rem;
+    height: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+a {
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+}
+
+.product:hover, product:focus {
+    transform: scale(1.054);
+}
+
+/* .product-image {
+    width: 100%;
+    height: 100%;
+} */
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
